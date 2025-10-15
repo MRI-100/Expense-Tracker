@@ -9,6 +9,7 @@ import type { Route } from "../+types/root";
 import { TransactionList } from "~/components/transactionList";
 // import type { Route } from "../+types/root";
 // import type { Route } from ".react-router/types/app/routes/home";
+import "../app.css"
 
 
 export function meta({ }: Route.MetaArgs) {
