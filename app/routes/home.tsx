@@ -1,6 +1,5 @@
 // import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
-import { Hello } from "~/components/hello";
 import { Navtitle } from "~/components/navtitle";
 import { NetValueCard } from "~/components/netvaluecard";
 import { TransactionSection } from "~/components/transactionsection";
@@ -61,7 +60,6 @@ export default function Home() {
         transactions={transactions}
         onDelete={handleDeleteTransaction}
       />
-      <Hello name={"Mri"} />
     </div>
 
   )
